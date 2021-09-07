@@ -14,6 +14,8 @@
 		2523D79C26DE920200F65F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2523D79B26DE920200F65F69 /* Assets.xcassets */; };
 		2523D79F26DE920200F65F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2523D79D26DE920200F65F69 /* LaunchScreen.storyboard */; };
 		2523D7CC26E7B3AC00F65F69 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523D7CB26E7B3AC00F65F69 /* ResultViewController.swift */; };
+		2523D7CE26E7D88F00F65F69 /* calculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523D7CD26E7D88F00F65F69 /* calculatorBrain.swift */; };
+		2523D7D026E7DF7F00F65F69 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523D7CF26E7DF7F00F65F69 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		2523D79E26DE920200F65F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2523D7A026DE920200F65F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2523D7CB26E7B3AC00F65F69 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "bodyMassIndex app/Views/ResultViewController.swift"; sourceTree = SOURCE_ROOT; };
+		2523D7CD26E7D88F00F65F69 /* calculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorBrain.swift; sourceTree = "<group>"; };
+		2523D7CF26E7DF7F00F65F69 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		2523D7A826DEA29300F65F69 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2523D7CD26E7D88F00F65F69 /* calculatorBrain.swift */,
+				2523D7CF26E7DF7F00F65F69 /* BMI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,8 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2523D79726DE920200F65F69 /* ViewController.swift in Sources */,
+				2523D7CE26E7D88F00F65F69 /* calculatorBrain.swift in Sources */,
 				2523D79326DE920200F65F69 /* AppDelegate.swift in Sources */,
 				2523D79526DE920200F65F69 /* SceneDelegate.swift in Sources */,
+				2523D7D026E7DF7F00F65F69 /* BMI.swift in Sources */,
 				2523D7CC26E7B3AC00F65F69 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
