@@ -13,6 +13,7 @@
 		2523D79A26DE920200F65F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2523D79826DE920200F65F69 /* Main.storyboard */; };
 		2523D79C26DE920200F65F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2523D79B26DE920200F65F69 /* Assets.xcassets */; };
 		2523D79F26DE920200F65F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2523D79D26DE920200F65F69 /* LaunchScreen.storyboard */; };
+		2523D7CC26E7B3AC00F65F69 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2523D7CB26E7B3AC00F65F69 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2523D79B26DE920200F65F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2523D79E26DE920200F65F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2523D7A026DE920200F65F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2523D7CB26E7B3AC00F65F69 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = "bodyMassIndex app/Views/ResultViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		2523D7A726DEA22E00F65F69 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				2523D7CB26E7B3AC00F65F69 /* ResultViewController.swift */,
 				2523D79626DE920200F65F69 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -164,6 +167,7 @@
 				2523D79726DE920200F65F69 /* ViewController.swift in Sources */,
 				2523D79326DE920200F65F69 /* AppDelegate.swift in Sources */,
 				2523D79526DE920200F65F69 /* SceneDelegate.swift in Sources */,
+				2523D7CC26E7B3AC00F65F69 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
